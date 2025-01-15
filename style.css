@@ -1,0 +1,106 @@
+/* General Styling */
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(120deg, #f4f4f4, #e0e0e0);
+            color: #333;
+	    line-height: 1.6;
+        }
+        header {
+            background: black;
+            color: white;
+            text-align: center;
+            padding: 2em 1em;
+        }
+        header h1 {
+           font-size: 2.8em;
+           margin-bottom: 0.3em;
+        }
+        header p {
+            font-size: 1.5em;
+            margin-top: 0.5em;
+            font-style: italic;
+        }
+        main {
+            max-width: 800px;
+     	    margin: 2em auto;
+   	    background: #00000;
+   	    padding: 2em;
+   	    border-radius: 10px;
+   	    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        h2 {
+            font-size: 1.9em;
+    color: #000000;
+    text-align: center;
+    margin-bottom: 1.5em;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+        }
+        #inputForm {
+            display: none;
+            margin-bottom: 20px;
+        }
+        #inputForm form {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+        #inputForm input {
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+        #inputForm button {
+            padding: 10px;
+            background: #6C63FF;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background 0.3s;
+        }
+        #inputForm button:hover {
+            background: #574ac9;
+        }
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+        li {
+            display: flex;
+            align-items: center;
+            background: white;
+            margin: 10px 0;
+            padding: 15px;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        li .icon {
+            margin-right: 10px;
+            color: #6C63FF;
+        }
+       
+        footer {
+            text-align: center;
+            padding: 10px;
+            background: black;
+            color: white;
+            margin-top: 20px;
+        }
+        /* Button Styles */
+        #addbutton {
+            display: block;
+            margin: 0 auto 20px;
+            padding: 10px 20px;
+            background: #6C63FF;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background 0.3s;
+        }
+        #addbutton:hover {
+            background: #574ac9;
+        }
